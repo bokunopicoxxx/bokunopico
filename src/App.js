@@ -6,6 +6,7 @@ import tokenomics from './assets/tokenomics.png'
 import meme1 from './assets/meme1.png'
 import meme2 from './assets/meme2.png'
 import meme3 from './assets/meme3.png'
+import Overlay from './components/Overlay';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <div className="App">
+      <Overlay/>
       <div className="section1">
         <div className="logoBlock"><img src={logo} className="logo" alt="logo"/></div>
         <div className="textBlock"><h1 className="heading">Love Story On Solana</h1></div>
